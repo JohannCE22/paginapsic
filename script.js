@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("Página de psicología cargada correctamente.");
+    console.log("Página de Psicología cargada correctamente.");
 });
