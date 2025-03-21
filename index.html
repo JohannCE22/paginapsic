@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Espacio Psicológico</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
 
@@ -13,41 +14,60 @@
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#articulos">Artículos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="inicio">
-        <h2>Bienvenido a Espacio Psicológico</h2>
-        <p>Un lugar para el autoconocimiento, el bienestar mental y el crecimiento personal.</p>
-        <img src="images/psicologia.jpg" alt="Imagen representativa de psicología" width="80%">
-    </section>
-
-    <section id="articulos">
-        <h2>Últimos Artículos</h2>
-        <div class="articulo">
-            <h3>La importancia de la salud mental</h3>
-            <p>Descubre cómo cuidar tu bienestar emocional en el día a día.</p>
-            <a href="#">Leer más</a>
-        </div>
-        <div class="articulo">
-            <h3>Cómo manejar la ansiedad</h3>
-            <p>Estrategias y consejos para gestionar el estrés y la ansiedad.</p>
-            <a href="#">Leer más</a>
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Tu bienestar emocional es nuestra prioridad</h2>
+            <p>Encuentra equilibrio, paz y bienestar con nuestros servicios psicológicos.</p>
+            <a href="#contacto" class="btn">Agenda una consulta</a>
         </div>
     </section>
 
-    <section id="contacto">
+    <section id="servicios" class="section">
+        <h2>Nuestros Servicios</h2>
+        <div class="service-container">
+            <div class="service">
+                <h3>Terapia Individual</h3>
+                <p>Sesiones personalizadas para tu bienestar emocional.</p>
+            </div>
+            <div class="service">
+                <h3>Terapia Familiar</h3>
+                <p>Mejora la comunicación y el vínculo con tus seres queridos.</p>
+            </div>
+            <div class="service">
+                <h3>Manejo del Estrés</h3>
+                <p>Aprende técnicas para reducir la ansiedad y el estrés.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonios" class="section testimonials">
+        <h2>Lo que dicen nuestros pacientes</h2>
+        <div class="testimonial">
+            <p>"Gracias a la terapia, he logrado mejorar mi confianza y reducir la ansiedad. 100% recomendado."</p>
+            <span>- Andrea R.</span>
+        </div>
+        <div class="testimonial">
+            <p>"Un espacio donde me siento escuchado y comprendido. Ha sido una experiencia transformadora."</p>
+            <span>- Carlos M.</span>
+        </div>
+    </section>
+
+    <section id="contacto" class="section contact">
         <h2>Contacto</h2>
-        <p>Si necesitas orientación, contáctanos en: <strong>psicologia@example.com</strong></p>
+        <p>Si necesitas orientación, escríbenos a:</p>
+        <p class="email">psicologia@example.com</p>
     </section>
 
     <footer>
         <p>&copy; 2025 Espacio Psicológico - Todos los derechos reservados.</p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
